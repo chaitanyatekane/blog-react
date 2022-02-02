@@ -5,7 +5,7 @@ const Main = () => {
     <>
       <div className="main">
         <div className="main-title">
-          <p>Main Body</p>
+          <h3>Main Body</h3>
         </div>
         <div className="main-content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia
@@ -23,7 +23,7 @@ const Main = () => {
             width="150"
           />
           <img
-            src="/Images/coding1.jpg"
+            src="/Images/power.png"
             alt="HTML-ICON"
             height="150"
             width="150"
