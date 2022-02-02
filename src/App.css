@@ -22,6 +22,26 @@
   padding-bottom: 25px;
 }
 
+.main-images {
+  padding-bottom: 15px;
+}
+
+.main-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-container-box {
+  padding: 35px;
+  margin: 10px;
+  color: white;
+  background-color: brown;
+}
+
 .footer {
   position: fixed;
   left: 0;

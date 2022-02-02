@@ -23,11 +23,18 @@ const Main = () => {
             width="150"
           />
           <img
-            src="/Images/power.png"
+            src="/Images/html2.svg"
             alt="HTML-ICON"
             height="150"
             width="150"
           />
+        </div>
+        <div className="main-container">
+          <div className="main-container-box">1</div>
+          <div className="main-container-box">2</div>
+          <div className="main-container-box">3</div>
+          <div className="main-container-box">4</div>
+          <div className="main-container-box">5</div>
         </div>
       </div>
     </>
