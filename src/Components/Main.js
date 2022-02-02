@@ -1,4 +1,5 @@
 import React from "react";
+import Antdesign from "./Antdesign";
 
 const Main = () => {
   return (
@@ -36,6 +37,9 @@ const Main = () => {
           <div className="main-container-box">4</div>
           <div className="main-container-box">5</div>
         </div>
+      </div>
+      <div className="main-antdesign">
+        <Antdesign />
       </div>
     </>
   );

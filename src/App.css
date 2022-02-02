@@ -42,12 +42,22 @@
   background-color: brown;
 }
 
+.main-antdesign {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.antdesign-more {
+  margin: 10px;
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
-  padding-top: 20px;
   height: 40px;
+  padding-top: 8px;
   width: 100%;
   background-color: rgb(36, 35, 128);
   color: white;
