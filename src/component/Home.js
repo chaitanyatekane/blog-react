@@ -13,12 +13,12 @@ const Home = () => {
     },
   ]);
 
-  const [inHover, setHover] = useState(false);
+  const [name, setName] = useState("Chaitanya");
 
   useEffect(() => {
     console.log("useEffect Called, Something Rendered");
-    console.log(blogs);
-  });
+    console.log(name);
+  }, [name]);
 
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
@@ -28,6 +28,8 @@ const Home = () => {
   return (
     <div className="home">
       <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
+      <button onClick={() => setName("Tekane")}>Click Me To Change Name</button>
+      <h3>{name}</h3>
     </div>
   );
 };
