@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BlogList from "./BlogList";
 
 const Home = () => {
@@ -13,6 +13,13 @@ const Home = () => {
     },
   ]);
 
+  const [inHover, setHover] = useState(false);
+
+  useEffect(() => {
+    console.log("useEffect Called, Something Rendered");
+    console.log(blogs);
+  });
+
   const handleDelete = (id) => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
     setBlogs(newBlogs);
@@ -21,10 +28,6 @@ const Home = () => {
   return (
     <div className="home">
       <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
-      <BlogList
-        blogs={blogs.filter((blog) => blog.author === "mario")}
-        title="Mario's Blogs"
-      />
     </div>
   );
 };
