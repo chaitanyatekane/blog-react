@@ -11,6 +11,12 @@
       "body": "Bye Bye",
       "author": "yoshi",
       "id": 9
+    },
+    {
+      "title": "Learn React & Get Hired",
+      "body": "Go  through all react concepts, build projects, deploy projects, network, showcase your work and get hired!",
+      "author": "mario",
+      "id": 10
     }
   ]
 }
