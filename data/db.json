@@ -7,16 +7,16 @@
       "id": 2
     },
     {
-      "title": "Hello Chaitanya",
-      "body": "Bye Bye",
-      "author": "yoshi",
-      "id": 9
-    },
-    {
       "title": "Learn React & Get Hired",
       "body": "Go  through all react concepts, build projects, deploy projects, network, showcase your work and get hired!",
       "author": "mario",
       "id": 10
+    },
+    {
+      "title": "Masters Degree Human Computer Interaction (HCI)",
+      "body": "The Master of Science in Human-Computer Interaction (HCI) prepares students to ideate, design, implement, and evaluate computer-based technologies so they are useful and usable for end users. This interdisciplinary degree integrates concepts and methods from computer science, graphic design and the social sciences.",
+      "author": "yoshi",
+      "id": 11
     }
   ]
 }
